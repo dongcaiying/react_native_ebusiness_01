@@ -1,0 +1,3 @@
+rootProject.name = 'eBusiness01'
+
+include ':app'
