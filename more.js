@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {ScrollView, Dimensions, StyleSheet, View, Text,
     ActivityIndicator, Picker, Slider, Switch, WebView} from 'react-native';
-import MapView from 'react-native-maps'
 
 export default class more extends React.Component {
     constructor(props) {
@@ -16,7 +15,6 @@ export default class more extends React.Component {
     render() {
         return (
             <ScrollView style={styles.container}>
-                <MapView />
                 <WebView source={{uri: 'https://sina.cn/'}}
                     style={styles.web}></WebView>
                 <Switch onTintColor='blue'
